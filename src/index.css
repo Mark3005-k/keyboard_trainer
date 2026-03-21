@@ -1,0 +1,83 @@
+@import url(https://fonts.googleapis.com/css?family=Arsenal:regular,italic,700,700italic);  
+@import url(https://fonts.googleapis.com/css?family=Carlito:regular,italic,700,700italic);
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arsenal;
+  background-color: #44444E;
+  color: #D3DAD9;
+}
+
+#root{
+  min-height: 100vh;
+}
+
+.app{
+ min-height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center; 
+}
+
+.trainer{
+background-color: #37353E;
+width: 60%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+padding: 30px 30px;
+border-radius: 30px;
+}
+
+.title{
+  font-size: 60px;
+  font-family: Carlito;
+  font-weight: 700;
+  color: whitesmoke;
+}
+
+.subTitle{
+  font-size: 30px;
+  color: aquamarine;
+}
+
+.input{
+  padding: 15px 20px;
+  border: 1px solid whitesmoke;
+  border-radius: 10px;
+  color: whitesmoke;
+  width: 100%;
+
+  background-color: #715A5A;
+}
+
+.textDisplay{
+  font-size: 20px;
+}
+
+.correct{
+  color: rgb(11, 99, 11);
+  background-color: rgb(127, 151, 127);
+}
+
+.char{
+  padding: 5px 3px;
+  border-radius: 3px;
+}
+
+.incorrect{
+  color: rgb(181, 14, 14);
+  background-color: rgb(135, 90, 90);
+  
+}
+
+.current{
+transform: translateY(10px);
+font-size: 26px;
+padding: 5px;
+border: 1px solid white;
+}
